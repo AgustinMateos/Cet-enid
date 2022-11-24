@@ -4,4 +4,18 @@
   align-items: center;
   justify-content: end;
 }
+
+.index__nuestroServicio_container {
+  display: flex;
+}
+
+.index__actvidad__container {
+  display: flex;
+  justify-content: center;
+}
+
+.index__actividad_container_img {
+  width: 400;
+  height: 400;
+}
 /*# sourceMappingURL=styles.css.map */
