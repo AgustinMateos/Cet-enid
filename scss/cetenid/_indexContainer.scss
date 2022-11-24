@@ -2,5 +2,8 @@
     display: flex;
 }
 
-.index__actvidad__container{display: flex;justify-content: center;}
+.index__actvidad__container{display: flex;justify-content: center; flex-direction: column;}
 .index__actividad_container_img{width: 400;height: 400;}
+.actividad{display: flex; justify-content: center;flex-direction: column;}
+.index__actividad__cards__container{display: flex;  align-items: center;
+    justify-content: space-around;}
