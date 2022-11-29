@@ -7,6 +7,8 @@
 
 .index__nuestroServicio_container {
   display: flex;
+  align-items: center;
+  border-left: 2px solid black;
 }
 
 .index__actvidad__container {
@@ -46,5 +48,10 @@
 .index__footer__container_info {
   display: flex;
   flex-direction: column;
+}
+
+.index__icono__container {
+  display: flex;
+  align-items: center;
 }
 /*# sourceMappingURL=styles.css.map */
