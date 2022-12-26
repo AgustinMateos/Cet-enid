@@ -57,5 +57,10 @@
 .index__icono__container {
   display: flex;
   align-items: center;
+  margin: 10px;
+}
+
+.index__cetenid__container__texto {
+  padding: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
