@@ -5,6 +5,10 @@
   justify-content: end;
 }
 
+.navbarCetenid {
+  height: 100px;
+}
+
 .index__nuestroServicio_container {
   display: flex;
   align-items: center;
