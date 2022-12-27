@@ -25,6 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 10px;
 }
 
 .index__obraSociales__title__container {
@@ -36,6 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: space-around;
 }
 
 .index__footer__container_info {
@@ -50,3 +52,13 @@
 }
 
 .index__cetenid__container__texto{padding: 10px;}
+
+.accordion-item {
+    background-color: #fff;
+    border: transparent;
+}
+
+.index__button__preguntas{
+    border-bottom: solid black 2px;
+}
+

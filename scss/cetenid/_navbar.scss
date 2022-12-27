@@ -1,1 +1,8 @@
-.navbarCetenid{height: 100px;}
+.navbarCetenid {
+    height: 100px;
+    background: linear-gradient(to right, rgb(255, 255, 0), rgb(234, 40, 40));
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}

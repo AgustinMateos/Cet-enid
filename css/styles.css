@@ -7,6 +7,11 @@
 
 .navbarCetenid {
   height: 100px;
+  background: linear-gradient(to right, yellow, #ea2828);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: white;
 }
 
 .index__nuestroServicio_container {
@@ -36,6 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 10px;
 }
 
 .index__obraSociales__title__container {
@@ -47,6 +53,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-content: space-around;
 }
 
 .index__footer__container_info {
@@ -62,5 +69,20 @@
 
 .index__cetenid__container__texto {
   padding: 10px;
+}
+
+.accordion-item {
+  background-color: #fff;
+  border: transparent;
+}
+
+.index__button__preguntas {
+  border-bottom: solid black 2px;
+}
+
+@media screen and (max-width: 991px) {
+  .navbarCetenid {
+    background: linear-gradient(to right, yellow, #ea2828);
+  }
 }
 /*# sourceMappingURL=styles.css.map */
