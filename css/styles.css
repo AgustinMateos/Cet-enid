@@ -80,6 +80,10 @@
   border-bottom: solid black 2px;
 }
 
+.border1 {
+  border-bottom: 2px solid black;
+}
+
 @media screen and (max-width: 991px) {
   .navbarCetenid {
     background: linear-gradient(to right, yellow, #ea2828);
