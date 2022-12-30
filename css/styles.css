@@ -14,6 +14,13 @@
   color: white;
 }
 
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .index__nuestroServicio_container {
   display: flex;
   align-items: center;
@@ -51,9 +58,7 @@
 
 .index__footer__container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-around;
+  flex-wrap: nowrap;
 }
 
 .index__footer__container_info {
@@ -84,9 +89,14 @@
   border-bottom: 2px solid black;
 }
 
-@media screen and (max-width: 991px) {
-  .navbarCetenid {
-    background: linear-gradient(to right, yellow, #ea2828);
+.accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #e7f1ff;
+}
+
+@media screen and (max-width: 891px) {
+  .index__footer__container {
+    flex-direction: column-reverse;
   }
 }
 /*# sourceMappingURL=styles.css.map */
