@@ -4,6 +4,12 @@
     .index__footer__container {
         flex-direction: column-reverse;
     }
+    .index__nuestroServicio_container {
+        display: flex;
+        align-items: center;
+        border-left: 2px solid black;
+        flex-direction: column;
+    }
     }
 
 
