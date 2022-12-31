@@ -225,6 +225,11 @@
   width: 100%;
 }
 
+.nosotros__fundadoras__MarcoLegal__container {
+  justify-content: center;
+  text-align: center;
+}
+
 .footer__Info__titulos {
   font-size: 20px;
 }
