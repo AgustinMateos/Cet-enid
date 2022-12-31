@@ -210,9 +210,19 @@
   width: 100%;
 }
 
-.index__actividades__descripcion {
+.index__actividades__container {
   align-items: center;
   text-align: center;
+}
+
+.index__actividadesMedio__container {
+  align-items: center;
+  text-align: center;
+  flex-direction: row-reverse;
+}
+
+.index__actividades__titulo {
+  border-bottom: 2px solid black;
 }
 
 .nosotros__fundadoras__MarcoLegal__container {

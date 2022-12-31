@@ -65,4 +65,9 @@
   
 }
 
-.index__actividades__descripcion{align-items: $Center; text-align: $Center;}
+.index__actividades__container{align-items: $Center; text-align: $Center;
+}
+.index__actividadesMedio__container{align-items: $Center; text-align: $Center;flex-direction: row-reverse;
+}
+.index__actividades__titulo{border-bottom: 2px solid black;}
+
