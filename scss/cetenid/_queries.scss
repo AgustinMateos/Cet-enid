@@ -1,16 +1,21 @@
 
-
+@media screen and (max-width:900px) {
+    
+  .index__nuestroServicio_container {
+    display: flex;
+    align-items: center;
+    border-left: 2px solid black;
+    flex-direction: column;
+}
+    
+} 
 @media screen and (max-width:891px) {
     .index__footer__container {
         flex-direction: column-reverse;
     }
-    .index__nuestroServicio_container {
-        display: flex;
-        align-items: center;
-        border-left: 2px solid black;
-        flex-direction: column;
-    }
-    }
+  
+    
+}    
 
 
     @media screen and (max-width:732px) {
