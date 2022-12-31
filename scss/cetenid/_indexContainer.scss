@@ -28,20 +28,8 @@
     padding: 10px;
 }
 
-.index__obraSociales__title__container {
-    display: flex;
-    justify-content: center;
-}
 
-.index__footer__container {
-    display: flex;
-    flex-wrap: nowrap;
-}
 
-.index__footer__container_info {
-    display: flex;
-    flex-direction: column;
-}
 
 .index__icono__container {
     display: flex;
@@ -76,3 +64,5 @@
 
   
 }
+
+.index__actividades__descripcion{align-items: $Center; text-align: $Center;}
