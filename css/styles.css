@@ -120,13 +120,6 @@
   object-fit: cover;
 }
 
-.navbar-collapse {
-  flex-basis: 100%;
-  flex-grow: 1;
-  align-items: center;
-  justify-content: end;
-}
-
 .navbarCetenid {
   height: 100px;
   background: linear-gradient(to right, yellow, #ea2828);
@@ -216,9 +209,20 @@
   border-bottom: 2px solid black;
 }
 
+.border2 {
+  border-top: 2px solid black;
+}
+
 .accordion-button:not(.collapsed) {
   color: #000000;
-  background-color: #e7f1ff;
+  background-color: transparent;
+}
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 .footer__Info__titulos {
