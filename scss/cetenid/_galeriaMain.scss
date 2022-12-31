@@ -1,25 +1,24 @@
 .galeria__section__container {
     width: 100%;
     padding: 1rem;
-    height: 100%;
+    min-height: 100px;
 }
 
 .galeria__section__container__grid {
-    border: 2px solid rgb(86, 86, 86);
     padding: 1rem;
     min-height: 300px;
     display: grid;
-    grid-template-columns: 33,3% 33,3% 33,3%;
-    grid-template-rows: 25% 25% 25% 25% 25% ;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows:200px 200px 200px  ;
     justify-items: center;
     justify-content: center;
     grid-template-areas: 
     "foto1 foto2 foto3 "
     "foto4 foto5 foto6 "
-    "foto7 foto8 foto9 "
-    "foto10 foto11 foto12";
-    
-
+    "foto7 foto8 foto9 ";
+    column-gap: 20px;
+    row-gap:20px;
+ 
 }
 .galeria__section__container__grid__hijo1{ grid-area: foto1; }
 .galeria__section__container__grid__hijo1__img {
@@ -67,16 +66,3 @@ width:100% ;height: 100%; object-fit: cover;
     width:100% ;height: 100%;object-fit: cover;
 }
 
-.galeria__section__container__grid__hijo10{ grid-area: foto10;}
-.galeria__section__container__grid__hijo10__img {
-    width:100% ;height: 100%;object-fit: cover;
-}
-.galeria__section__container__grid__hijo11{ grid-area: foto11;justify-self: stretch;align-self: stretch;}
-.galeria__section__container__grid__hijo11__img {
-    width:100% ;height: 100%;object-fit: cover;
-}
-
-.galeria__section__container__grid__hijo12{ grid-area: foto12;}
-.galeria__section__container__grid__hijo12__img {
-    width:100% ;height: 100%;object-fit: cover;
-}

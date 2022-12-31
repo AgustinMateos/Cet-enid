@@ -1,11 +1,35 @@
-@media screen and (max-width:992px) {
-   
 
-    
-    }
 
 @media screen and (max-width:891px) {
     .index__footer__container {
         flex-direction: column-reverse;
     }
     }
+
+
+    @media screen and (max-width:732px) {
+        
+        .galeria__section__container__grid {
+            padding: 1rem;
+            min-height: 300px;
+            display: grid;
+            grid-template-columns: repeat(1, 200px);
+            grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+            justify-items: center;
+            justify-content: center;
+            grid-template-areas:
+                "foto1"
+                "foto2"
+                "foto3"
+                "foto4"
+                "foto5"
+                "foto6"
+                " foto7"
+                " foto8"
+                "foto9 ";
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+
+
+        }
