@@ -9,7 +9,7 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 600px;
+    max-height: 600px;
 }
 .carousel-item {
     position: relative;
@@ -20,5 +20,5 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: transform .6s ease-in-out;
-    height: 600px;
+    height: 100%;
 }
