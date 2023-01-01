@@ -127,25 +127,11 @@
   box-shadow: none;
 }
 
-.navbarCetenid {
-  height: 100px;
-  background: linear-gradient(to right, yellow, #ea2828);
-}
-
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
-  color: white;
-}
-
-.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
-  display: flex;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.logotipo {
-  width: 50%;
-  height: 100%;
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 600px;
 }
 
 .navbar__menu__container {

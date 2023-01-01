@@ -5,3 +5,9 @@
     box-shadow: none;
 }
 
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+}
