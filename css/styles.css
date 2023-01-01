@@ -148,6 +148,15 @@
   height: 100%;
 }
 
+.navbar__menu__container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__menu__right {
+  justify-content: flex-end;
+}
+
 .index__nuestroServicio_container {
   display: flex;
   align-items: center;
