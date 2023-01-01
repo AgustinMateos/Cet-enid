@@ -134,6 +134,18 @@
   height: 600px;
 }
 
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform .6s ease-in-out;
+  height: 600px;
+}
+
 .navbar__menu__container {
   justify-content: space-between;
   align-items: center;
