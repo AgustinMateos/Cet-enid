@@ -120,30 +120,8 @@
   object-fit: cover;
 }
 
-.accordion-button:focus {
-  z-index: 3;
-  border-color: #86b7fe;
-  outline: 0;
-  box-shadow: none;
-}
-
-.carousel-inner {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
+.carouselHeight {
   max-height: 600px;
-}
-
-.carousel-item {
-  position: relative;
-  display: none;
-  float: left;
-  width: 100%;
-  margin-right: -100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  transition: transform .6s ease-in-out;
-  height: 100%;
 }
 
 .imglogotipo {
