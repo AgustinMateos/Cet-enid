@@ -217,6 +217,8 @@
 .index__actividades__container {
   align-items: center;
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .index__actividadesMedio__container {
