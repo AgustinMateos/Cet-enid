@@ -317,9 +317,27 @@
   }
 }
 
-@media screen and (max-width: 891px) {
+@media screen and (max-width: 767px) {
   .index__footer__container {
     flex-direction: column-reverse;
+  }
+  .formdoble {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .form-control1 {
+    width: 100%;
+    text-align: center;
+  }
+  .form-control1 {
+    text-align: center;
+  }
+  .formcontainer {
+    text-align: center;
   }
 }
 
