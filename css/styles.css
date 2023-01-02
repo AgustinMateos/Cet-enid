@@ -249,6 +249,8 @@
 .index__terapias__container {
   align-items: center;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .index__terapiasMedio__container {
