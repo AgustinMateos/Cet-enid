@@ -341,6 +341,7 @@
 .index__footer__container {
   display: flex;
   flex-wrap: nowrap;
+  margin-bottom: 20px;
 }
 
 .index__footer__container_info {
