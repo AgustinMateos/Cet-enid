@@ -145,6 +145,11 @@
   justify-content: flex-end;
 }
 
+.navbar__menu__right__bordes {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+
 .index__nuestroServicio_container {
   display: flex;
   align-items: center;
