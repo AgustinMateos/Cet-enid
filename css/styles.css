@@ -332,6 +332,12 @@
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.contacto__button__enviar {
+  border-radius: 9px;
+  width: 15%;
+  margin-top: 15px;
+}
+
 .index__footer__container {
   display: flex;
   flex-wrap: nowrap;
@@ -343,11 +349,11 @@
 }
 
 .footer__Info__titulos {
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .footer__Info__informacion {
-  font-size: 15px;
+  font-size: 8px;
 }
 
 .map {
