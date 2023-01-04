@@ -362,6 +362,13 @@
   width: 900px;
 }
 
+@media screen and (max-width: 990px) {
+  .navbar__menu__right__bordes {
+    border-right: none;
+    border-left: none;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .index__nuestroServicio_container {
     display: flex;
