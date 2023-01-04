@@ -362,6 +362,12 @@
   width: 900px;
 }
 
+@media screen and (max-width: 1088px) {
+  .navbar__menu__container {
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 990px) {
   .navbar__menu__right__bordes {
     border-right: none;
