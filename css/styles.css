@@ -313,6 +313,10 @@
   justify-content: center;
 }
 
+.terapias__imagenes {
+  object-fit: cover;
+}
+
 .formdoble {
   display: flex;
   align-items: center;
