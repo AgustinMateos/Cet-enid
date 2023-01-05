@@ -256,6 +256,11 @@
   color: black;
 }
 
+.carouselHeight img {
+  max-height: 600px;
+  object-fit: cover;
+}
+
 .nosotros__fundadoras__MarcoLegal__container {
   justify-content: center;
   text-align: center;
