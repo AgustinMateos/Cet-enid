@@ -33,6 +33,11 @@
   object-fit: cover;
 }
 
+.galeria__section__container__grid__hijo1__img:hover {
+  width: 110%;
+  height: 110%;
+}
+
 .galeria__section__container__grid__hijo2 {
   grid-area: foto2;
   justify-self: stretch;
