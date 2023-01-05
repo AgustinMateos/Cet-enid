@@ -261,6 +261,10 @@
   object-fit: cover;
 }
 
+.index__carousel__titulo {
+  color: white;
+}
+
 .nosotros__fundadoras__MarcoLegal__container {
   justify-content: center;
   text-align: center;
