@@ -24,13 +24,14 @@
 .galeria__section__container__grid__hijo1__img {
 width:100% ;height: 100%; object-fit: cover; 
 }
-.galeria__section__container__grid__hijo1__img:hover{width: 110%;height: 110%}
+.galeria__section__container__grid__hijo1__img:hover{width: 90%;height: 90%}
 
 
 .galeria__section__container__grid__hijo2{ grid-area: foto2;justify-self: stretch;align-self: stretch;}
 .galeria__section__container__grid__hijo2__img {
     width:100% ;height: 100%; object-fit: cover; top: 55%;
 }
+.galeria__section__container__grid__hijo2__img:hover{width: 90%;height: 90%}
 
 .galeria__section__container__grid__hijo3{ grid-area: foto3;}
 .galeria__section__container__grid__hijo3__img {
