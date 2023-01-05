@@ -252,6 +252,10 @@
   text-decoration: none;
 }
 
+.index__verNuestrasTerapias__item:hover {
+  color: black;
+}
+
 .nosotros__fundadoras__MarcoLegal__container {
   justify-content: center;
   text-align: center;
