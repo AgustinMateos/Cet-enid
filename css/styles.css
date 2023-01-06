@@ -492,7 +492,7 @@
     grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
     justify-items: center;
     justify-content: center;
-    grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6" " foto7" " foto8" "foto9 ";
+    grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6" " foto7" " foto8" "foto9" "foto10" " foto11" " foto12";
     column-gap: 20px;
     row-gap: 20px;
   }
