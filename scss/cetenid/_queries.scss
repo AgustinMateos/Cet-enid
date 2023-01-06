@@ -1,14 +1,13 @@
-
-@media screen and (max-width:1088px){
+@media screen and (max-width:1088px) {
     .navbar__menu__container {
         font-size: 13px;
     }
-    
+
 }
 
 
 
-@media screen and (max-width:990px){
+@media screen and (max-width:990px) {
 
     .navbar__menu__right__bordes {
         border-right: none;
@@ -17,20 +16,21 @@
 }
 
 @media screen and (max-width:900px) {
-    
-  .index__nuestroServicio_container {
-    display: flex;
-    align-items: center;
-    border-left: 2px solid black;
-    flex-direction: column;
+
+    .index__nuestroServicio_container {
+        display: flex;
+        align-items: center;
+        border-left: 2px solid black;
+        flex-direction: column;
+    }
+
 }
-    
-} 
-  
+
 @media screen and (max-width:767px) {
     .index__footer__container {
         flex-direction: column-reverse;
     }
+
     .formdoble {
         display: flex;
         align-items: center;
@@ -39,46 +39,54 @@
         justify-content: space-between;
         flex-direction: column;
     }
+
     .form-control1 {
         width: 100%;
         text-align: center;
     }
+
     .form-control {
 
         text-align: center;
     }
-    .form-controlg{text-align: center;}
-    .formcontainer{text-align: center;}
-    
-} 
 
-    @media screen and (max-width:732px) {
-        
-        .galeria__section__container__grid {
-            padding: 1rem;
-            min-height: 300px;
-            display: grid;
-            grid-template-columns: repeat(1, 200px);
-            grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
-            justify-items: center;
-            justify-content: center;
-            grid-template-areas:
-                "foto1"
-                "foto2"
-                "foto3"
-                "foto4"
-                "foto5"
-                "foto6"
-                " foto7"
-                " foto8"
-                "foto9"
-                "foto10"
-                " foto11"
-                " foto12"
-                ;
-            column-gap: 20px;
-            row-gap: 20px;
-        }
+    .form-controlg {
+        text-align: center;
+    }
+
+    .formcontainer {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:732px) {
+
+    .galeria__section__container__grid {
+        padding: 1rem;
+        min-height: 300px;
+        display: grid;
+        grid-template-columns: repeat(1, 200px);
+        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+        justify-items: center;
+        justify-content: center;
+        grid-template-areas:
+            "foto1"
+            "foto2"
+            "foto3"
+            "foto4"
+            "foto5"
+            "foto6"
+            " foto7"
+            " foto8"
+            "foto9"
+            "foto10"
+            " foto11"
+            " foto12"
+        ;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
 
 
-        }
+}
