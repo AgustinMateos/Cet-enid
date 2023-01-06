@@ -39,6 +39,7 @@
 }
 
 
+
 .galeria__section__container__grid__hijo2 {
     grid-area: foto2;
     justify-self: stretch;
@@ -58,6 +59,7 @@
     object-fit: cover;
 }
 
+
 .galeria__section__container__grid__hijo3 {
     grid-area: foto3;
     justify-self: stretch;
@@ -68,7 +70,10 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    ;
+}
+.galeria__section__container__grid__hijo3__img:hover {
+    width: 90%;
+    height: 90%
 }
 
 .galeria__section__container__grid__hijo4 {
@@ -82,6 +87,10 @@
     height: 100%;
     object-fit: cover;
 }
+.galeria__section__container__grid__hijo4__img:hover {
+    width: 90%;
+    height: 90%
+}
 
 .galeria__section__container__grid__hijo5 {
     grid-area: foto5;
@@ -93,6 +102,10 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.galeria__section__container__grid__hijo5__img:hover {
+    width: 90%;
+    height: 90%
 }
 
 .galeria__section__container__grid__hijo6 {
