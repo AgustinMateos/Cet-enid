@@ -15,7 +15,7 @@
   min-height: 300px;
   display: grid;
   grid-template-columns: repeat(4, 350px);
-  grid-template-rows: 400px 400px 400px;
+  grid-template-rows: 300px 300px 300px;
   justify-items: center;
   justify-content: center;
   grid-template-areas: "foto1 foto2 foto3 foto4" "foto5 foto6 foto7 foto8" "foto9 foto10 foto11 foto12 ";
@@ -23,6 +23,8 @@
 
 .galeria__section__container__grid__hijo1 {
   grid-area: foto1;
+  justify-self: stretch;
+  align-self: stretch;
 }
 
 .galeria__section__container__grid__hijo1__img {
@@ -56,6 +58,8 @@
 
 .galeria__section__container__grid__hijo3 {
   grid-area: foto3;
+  justify-self: stretch;
+  align-self: stretch;
 }
 
 .galeria__section__container__grid__hijo3__img {
@@ -78,6 +82,8 @@
 
 .galeria__section__container__grid__hijo5 {
   grid-area: foto5;
+  justify-self: stretch;
+  align-self: stretch;
 }
 
 .galeria__section__container__grid__hijo5__img {
@@ -88,6 +94,8 @@
 
 .galeria__section__container__grid__hijo6 {
   grid-area: foto6;
+  justify-self: stretch;
+  align-self: stretch;
 }
 
 .galeria__section__container__grid__hijo6__img {
@@ -110,6 +118,8 @@
 
 .galeria__section__container__grid__hijo8 {
   grid-area: foto8;
+  justify-self: stretch;
+  align-self: stretch;
 }
 
 .galeria__section__container__grid__hijo8__img {
@@ -120,6 +130,8 @@
 
 .galeria__section__container__grid__hijo9 {
   grid-area: foto9;
+  justify-self: stretch;
+  align-self: stretch;
 }
 
 .galeria__section__container__grid__hijo9__img {
@@ -130,6 +142,8 @@
 
 .galeria__section__container__grid__hijo10 {
   grid-area: foto10;
+  justify-self: stretch;
+  align-self: stretch;
 }
 
 .galeria__section__container__grid__hijo10__img {
@@ -140,6 +154,8 @@
 
 .galeria__section__container__grid__hijo11 {
   grid-area: foto11;
+  justify-self: stretch;
+  align-self: stretch;
 }
 
 .galeria__section__container__grid__hijo11__img {
@@ -150,6 +166,8 @@
 
 .galeria__section__container__grid__hijo12 {
   grid-area: foto12;
+  justify-self: stretch;
+  align-self: stretch;
 }
 
 .galeria__section__container__grid__hijo12__img {

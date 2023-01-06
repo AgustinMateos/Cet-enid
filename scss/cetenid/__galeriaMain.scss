@@ -9,7 +9,7 @@
     min-height: 300px;
     display: grid;
     grid-template-columns: repeat(4,350px);
-    grid-template-rows:400px 400px 400px  ;
+    grid-template-rows:300px 300px 300px  ;
     justify-items: center;
     justify-content: center;
     grid-template-areas: 
@@ -20,7 +20,8 @@
    
  
 }
-.galeria__section__container__grid__hijo1{ grid-area: foto1; }
+.galeria__section__container__grid__hijo1{ grid-area: foto1; justify-self: stretch;
+    align-self: stretch;}
 .galeria__section__container__grid__hijo1__img {
 width:100% ;height: 100%; object-fit: cover; 
 }
@@ -33,7 +34,8 @@ width:100% ;height: 100%; object-fit: cover;
 }
 .galeria__section__container__grid__hijo2__img:hover{width: 90%;height: 90%}
 
-.galeria__section__container__grid__hijo3{ grid-area: foto3;}
+.galeria__section__container__grid__hijo3{ grid-area: foto3;justify-self: stretch;
+    align-self: stretch;}
 .galeria__section__container__grid__hijo3__img {
     width:100% ;height: 100%;object-fit: cover;
     ;
@@ -43,12 +45,14 @@ width:100% ;height: 100%; object-fit: cover;
     width:100% ;height: 100%;object-fit: cover;
 }
 
-.galeria__section__container__grid__hijo5{ grid-area: foto5;}
+.galeria__section__container__grid__hijo5{ grid-area: foto5; justify-self: stretch;
+    align-self: stretch;}
 .galeria__section__container__grid__hijo5__img {
     width:100% ;height: 100%;object-fit: cover;
 }
 
-.galeria__section__container__grid__hijo6{ grid-area: foto6;}
+.galeria__section__container__grid__hijo6{ grid-area: foto6;justify-self: stretch;
+    align-self: stretch;}
 .galeria__section__container__grid__hijo6__img {
     width:100% ;height: 100%;object-fit: cover;
 }
@@ -58,27 +62,32 @@ width:100% ;height: 100%; object-fit: cover;
     width:100% ;height: 100%;object-fit: cover;
 }
 
-.galeria__section__container__grid__hijo8{ grid-area: foto8;}
+.galeria__section__container__grid__hijo8{ grid-area: foto8;justify-self: stretch;
+    align-self: stretch;}
 .galeria__section__container__grid__hijo8__img {
     width:100% ;height: 100%;object-fit: cover;
 }
 
-.galeria__section__container__grid__hijo9{ grid-area: foto9;}
+.galeria__section__container__grid__hijo9{ grid-area: foto9;justify-self: stretch;
+    align-self: stretch;}
 .galeria__section__container__grid__hijo9__img {
     width:100% ;height: 100%;object-fit: cover;
 }
 
-.galeria__section__container__grid__hijo10{ grid-area: foto10;}
+.galeria__section__container__grid__hijo10{ grid-area: foto10;justify-self: stretch;
+    align-self: stretch;}
 .galeria__section__container__grid__hijo10__img {
     width:100% ;height: 100%;object-fit: cover;
 }
 
-.galeria__section__container__grid__hijo11{ grid-area: foto11;}
+.galeria__section__container__grid__hijo11{ grid-area: foto11;justify-self: stretch;
+    align-self: stretch;}
 .galeria__section__container__grid__hijo11__img {
     width:100% ;height: 100%;object-fit: cover;
 }
 
-.galeria__section__container__grid__hijo12{ grid-area: foto12;}
+.galeria__section__container__grid__hijo12{ grid-area: foto12;justify-self: stretch;
+    align-self: stretch;}
 .galeria__section__container__grid__hijo12__img {
     width:100% ;height: 100%;object-fit: cover;
 }
