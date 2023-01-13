@@ -240,6 +240,7 @@
 .imglogotipo {
   max-height: 95px;
   object-fit: cover;
+  width: 92%;
 }
 
 .navbar__menu__container {
@@ -499,6 +500,15 @@
     grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9" "foto10 foto11 foto12";
     column-gap: 20px;
     row-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.55);
+    border-color: rgba(0, 0, 0, 0.1);
+    width: 8%;
+    margin-right: 10px;
   }
 }
 

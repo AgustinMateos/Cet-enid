@@ -1,11 +1,18 @@
+.imglogotipo {
+    max-height: 95px;
+    object-fit: cover;
+    width: 92%
+}
 
+.navbar__menu__container {
+    justify-content: space-between;
+    align-items: center;
+}
 
+.navbar__menu__right {
+    justify-content: flex-end;
+}
 
-.imglogotipo{max-height: 95px;object-fit: cover;}
-
-.navbar__menu__container{justify-content: space-between;
-    align-items: center;}
-
-.navbar__menu__right{justify-content: flex-end;}
-
-.navbar__menu__right__bordesR{border-right: 2px solid black; }
+.navbar__menu__right__bordesR {
+    border-right: 2px solid black;
+}
